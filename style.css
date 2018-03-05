@@ -24,6 +24,81 @@ html, body {
 }
 
 
+h1, p {
+  text-align: center;
+}
+
+.image{
+  
+}
+
+.hotspot {
+  position: relative;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.hotspot img{
+  width: 100%;
+}
+.modal{
+  height: 100vh;
+  width: 100vw;
+  position:
+  fixed; top: 200%;
+  left: 0;
+  padding: 1em;
+  background-color: rgba(0,0,0,0.65);
+  transition:
+  top 0.5s ease-in-out;
+}
+.modal.active{
+  top: 0;
+}
+
+.modal .inner{
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 1em;
+}
+
+.spot{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #000000;
+  border-color: white;
+}
+#hiv1{
+  top: 63%;
+      left: 44%;
+background-color: red;
+}
+#hiv2{
+  top: 18%;
+  right: 20%;
+    background-color: red;
+}
+#hiv3{
+  top: 14%;
+  right: 51%;
+  background-color: red;
+
+}
+#hiv4{
+  top: 59%;
+  left: 18%;
+background-color: red;
+}
+#hiv5{
+  top: 25%;
+    left: 4%;
+    background-color: red;
+}
+
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
