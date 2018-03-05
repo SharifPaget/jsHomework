@@ -22,7 +22,9 @@ html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
 }
-
+img{
+  image-orientation: middle;
+}
 
 h1{
   font-family: 'Krona One', sans-serif;
@@ -63,7 +65,7 @@ p {
   text-align: center;
 }
 .modal.active{
-  top: 25%;
+  top: 15%;
 }
 
 .modal .inner{
