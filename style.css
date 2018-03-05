@@ -24,12 +24,20 @@ html, body {
 }
 
 
-h1, p {
+h1{
+  font-family: 'Krona One', sans-serif;
   text-align: center;
 }
 
+p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size:
+
+}
+
 .image{
-  
+
 }
 
 .hotspot {
@@ -42,18 +50,20 @@ h1, p {
   width: 100%;
 }
 .modal{
-  height: 100vh;
-  width: 100vw;
+  height: 45vh;
+  width: 75vw;
   position:
   fixed; top: 200%;
-  left: 0;
+  right: 12.5%;
   padding: 1em;
   background-color: rgba(0,0,0,0.65);
   transition:
-  top 0.5s ease-in-out;
+  top 0.7s ease-in-out;
+  opacity: .90;
+  text-align: center;
 }
 .modal.active{
-  top: 0;
+  top: 25%;
 }
 
 .modal .inner{
